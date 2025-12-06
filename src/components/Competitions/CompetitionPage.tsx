@@ -105,8 +105,8 @@ export default function CompetitionsPage() {
                     "Depth of Analysis - Did they go beyond the surface? Did they explore causes, effects, solutions?",
                     "Logic & Reasoning - Are their arguments strong, structured, and factual?",
                     "Creativity of Presentation - How unique is their approach, examples, storytelling?",
-                    "5. Language & Expression - Flow, readability, vocabulary, grammar (not too strict).",
-                    "6. Relevance & Impact - Does the writing create awareness or provoke thought?",
+                    "Language & Expression - Flow, readability, vocabulary, grammar (not too strict).",
+                    "Relevance & Impact - Does the writing create awareness or provoke thought?",
                   ].map((rule, index) => (
                     <li key={index} className="flex items-start">
                       <span className="text-purple-400 font-bold mr-2 mt-0.5">
