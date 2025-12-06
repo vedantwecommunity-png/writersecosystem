@@ -101,12 +101,12 @@ export default function CompetitionsPage() {
 
                 <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
                   {[
-                    "Only original work is allowed — plagiarism will result in immediate disqualification",
-                    "Strictly follow the assigned topic",
-                    "Word count must be between 300-500 words",
-                    "Only one entry per participant is allowed",
-                    "No hate speech, discriminatory remarks, or explicit adult content",
-                    "Once submitted, entries cannot be edited or replaced",
+                    "Clarity of Thought - How clearly the writer explains the issue.",
+                    "Depth of Analysis - Did they go beyond the surface? Did they explore causes, effects, solutions?",
+                    "Logic & Reasoning - Are their arguments strong, structured, and factual?",
+                    "Creativity of Presentation - How unique is their approach, examples, storytelling?",
+                    "5. Language & Expression - Flow, readability, vocabulary, grammar (not too strict).",
+                    "6. Relevance & Impact - Does the writing create awareness or provoke thought?",
                   ].map((rule, index) => (
                     <li key={index} className="flex items-start">
                       <span className="text-purple-400 font-bold mr-2 mt-0.5">
